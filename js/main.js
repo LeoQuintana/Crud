@@ -9,5 +9,9 @@ $(document).ready(function () {
 		e.preventDefault();
 		user.usuario = $('#user').val();
 		user.correo = $('#correo').val();
+	var us = JSON. parse(JSON.stringify(user));
+	users.push(us);
+	console.log(users);
 	});
+
 });
