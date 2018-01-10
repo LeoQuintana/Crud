@@ -19,7 +19,6 @@ $(document).ready(function () {
 		'<td><button>eliminar</button></td>' + 
 		'</tr>'
 	$('tbody').append(tr);
-	console.log(users);	
 	});
   });
 });
